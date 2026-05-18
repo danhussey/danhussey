@@ -19,4 +19,4 @@ ML engineer and medical student in Sydney. I work on AI systems for medicine, ro
 
 ## Elsewhere
 
-[Website](https://danielhussey.com) / [Blog](https://danhussey.bearblog.dev/blog/) / [X](https://x.com/danrhuss) / [Email](mailto:Daniel.R.Hussey@gmail.com)
+[Website](https://danielrhussey.com) / [Blog](https://danhussey.bearblog.dev/blog/) / [X](https://x.com/danrhuss) / [Email](mailto:Daniel.R.Hussey@gmail.com)
