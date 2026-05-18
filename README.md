@@ -4,9 +4,9 @@ ML engineer and medical student in Sydney. I work on AI systems for medicine, ro
 
 ## Building and research
 
-- [Senvaro](https://senvaro.com/demo) - AI clinical documentation that runs on the clinician's device, with in-browser transcription via WebGPU and ONNX runtime.
+- [Senvaro](https://senvaro.com/demo) - AI clinical documentation web app with browser recording, optional on-device transcription via WebGPU/ONNX, Azure Speech as the default cloud transcription path and fallback when local transcription is unavailable, and Azure-hosted LLM note generation.
 - [Fact Check](https://fact-checker-theta.vercel.app/) - real-time fact-checking PWA for live audio, using transcription, claim extraction, and structured model outputs.
-- [SpecGuard-Chem](https://github.com/danhussey/specguard-chem) - LLM safety evaluation framework for medicinal chemistry queries.
+- SpecGuard-Chem - LLM safety evaluation framework for medicinal chemistry queries, temporarily private during the NeurIPS '26 submission process.
 - [Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence) - MRI-only research prototype for predicting glioma recurrence risk from post-operative, pre-radiotherapy MRI.
 - [Action Chunking Transformer](https://github.com/danhussey/act_implementation) - independent implementation of ACT for learned robotic manipulation policies.
 - [ABIDE Connectome Classification](https://github.com/danhussey/connectomic-demo) - ML demo for classifying ASD vs. control subjects from functional connectivity features.
