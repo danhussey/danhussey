@@ -30,10 +30,8 @@ This index groups work by the kinds of systems I want reviewers to sample: evalu
 - **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - retrospective research pipeline for recurrence-risk modelling with patient-level splits, recurrence labels mapped to baseline space, leakage controls, calibration concerns, and human-readable QC reports.
 - **[Connectomic Demo](https://github.com/danhussey/connectomic-demo)** - archival classical ML demo using ABIDE connectivity features, XGBoost, SHAP feature attribution, and cross-site generalisation analysis.
 
-## Lower-Emphasis Public Repos
+## Archival and Utility Repos
 
-These can stay public if they have clear README status labels, but they should not dominate the pinned or profile story: AnkiOCR, htmx-gpt, cafe-song-selector, carsales-scraper, Advent-of-Code-2024, and Dotfiles.
-
-## Visibility Review
-
-Before relying on a repository as a public portfolio signal, confirm that an unauthenticated reviewer can access it. Private repositories can still be useful as work samples, demos, or case studies, but they should not be the only route to understanding the project.
+Older utility projects and archival coursework are intentionally not part of the
+main portfolio. The projects above are the best samples for research-engineering
+review.
