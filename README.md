@@ -6,7 +6,7 @@ My current focus is empirical model behavior: verifier use, tool-using agents, c
 
 ## For reviewers short on time
 
-1. **SpecGuard / SpecGuard-Chem** - agent evaluation contracts for structured rule-following, verifier use, abstention, and tool-mediated decisions. Repository visibility is being reviewed before public release.
+1. **[SpecGuard](https://github.com/danhussey/specguard-agent)** - agent evaluation contracts for structured rule-following, verifier use, abstention, and tool-mediated decisions.
 2. **[ACT implementation](https://github.com/danhussey/act_implementation)** - readable Action Chunking Transformer implementation with closed-loop robotics rollout results.
 3. **[Fact Checker](https://github.com/danhussey/fact-checker)** - streaming claim extraction and verification system for noisy live speech.
 4. **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - high-stakes scientific ML pipeline with patient-level splits, leakage controls, and QC artifacts.
@@ -15,7 +15,8 @@ See [PORTFOLIO.md](PORTFOLIO.md) for a reviewer-oriented project index.
 
 ## Selected technical work
 
-- **SpecGuard / SpecGuard-Chem** - agent evaluation contracts for structured rule-following, verifier use, abstention, action semantics, cache/replay, and tool-mediated decisions. Chemistry is the first typed verifier substrate, not the portfolio claim.
+- **[SpecGuard](https://github.com/danhussey/specguard-agent)** - agent evaluation contracts for structured rule-following, verifier use, abstention, action semantics, cache/replay, and tool-mediated decisions. Chemistry is the first typed verifier substrate, not the portfolio claim.
+- **[SpecGuard-Chem v2](https://github.com/danhussey/specguard_chem_v2)** - constrained compound-prioritisation audit that separates compliance from hidden retrospective utility on frozen decision cards.
 - **[ACT in One File](https://github.com/danhussey/act_implementation)** - compact Action Chunking Transformer implementation for robotic manipulation, including image observations, rollout videos, and closed-loop success metrics.
 - **[Fact Checker](https://github.com/danhussey/fact-checker)** - real-time claim extraction and verification from live audio, with structured model outputs, duplicate suppression, observability, and an evaluation scaffold for adversarial transcripts.
 - **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - research pipeline for voxelwise recurrence-risk modelling with patient-level validation, recurrence labels mapped into baseline space, leakage controls, and human-readable QC reports.
