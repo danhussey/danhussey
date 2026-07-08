@@ -28,6 +28,7 @@ This index groups work by the kinds of systems I want reviewers to sample: evalu
 ## Scientific Machine Learning
 
 - **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - retrospective research pipeline for recurrence-risk modelling with patient-level splits, recurrence labels mapped to baseline space, leakage controls, calibration concerns, and human-readable QC reports.
+- **[Raman Spectral-Geometry Triage](https://github.com/danhussey/raman-feasability)** - reproducible Python CLI and static-report pipeline for screening whether neuro-oncology drug Raman spectra are plausibly separable from paraffin and brain/tumour-like background spectra, with metadata validation, preprocessing, peak-collision scoring, NNLS recovery simulation, and cautious go/no-go reporting.
 - **[Connectomic Demo](https://github.com/danhussey/connectomic-demo)** - archival classical ML demo using ABIDE connectivity features, XGBoost, SHAP feature attribution, and cross-site generalisation analysis.
 
 ## Archival and Utility Repos
