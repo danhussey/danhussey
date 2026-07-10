@@ -1,8 +1,8 @@
 # Portfolio Index
 
-The projects below are organized by the evidence they provide: experimental design, scientific-software judgment, closed-loop evaluation, and production engineering.
+The first section contains the strongest current evidence for research-engineering roles. Secondary projects are retained below so the index shows breadth without making older or less controlled work look equivalent to the main portfolio.
 
-## Scientific and machine-learning research
+## Selected scientific and machine-learning research
 
 ### [Constrained Compound Prioritization: Compliance vs. Utility](https://github.com/danhussey/specguard_chem_v2)
 
@@ -34,7 +34,13 @@ An auditable Python CLI and reporting pipeline for screening whether drug spectr
 
 **Finding:** the first-pass public-spectrum screen prioritized temozolomide for controlled spike-in testing; several other candidates remained blocked by weak reference spectra.
 
-## Evaluation frameworks
+## Additional research and experiments
+
+- **[Site-Aware Autism Connectome Classification](https://github.com/danhussey/connectomic-demo)** — Archival XGBoost/SHAP demo with two clearly separated cohorts: a 569-subject pooled split (ROC-AUC 0.772) and an 871-subject, 20-site LOSO analysis (mean ROC-AUC 0.683 ± 0.074). The held-out-site result is the more relevant generalization evidence.
+- **[Doppler-Radar Gesture Recognition](https://github.com/danhussey/gesture_recognition)** — Honours research using RNN/LSTM models for contact-free gesture recognition; the submitted thesis reported 91.7% accuracy and received 82/100.
+- **[Pattern-Brained vs. Simple](https://github.com/danhussey/code-pattern-brained)** — A ten-task prompt experiment in which an instruction to use design patterns “liberally” produced 11.37× as many code tokens, with generated outputs retained for inspection.
+
+## Evaluation frameworks and tool-use systems
 
 - **[Model Rule-Following with Verifier Access](https://github.com/danhussey/specguard-agent)** — Machine-checkable task contracts for rule-following, accept/reject/abstain decisions, verifier-tool use, explicit budgets, cache/replay, and wrapper-saturation analysis.
 - **[Fact Checker](https://github.com/danhussey/fact-checker)** — Streaming claim extraction and verification from noisy speech, with structured outputs, diagnostics, rate limiting, and an offline adversarial-transcript scaffold.
@@ -47,4 +53,4 @@ An auditable Python CLI and reporting pipeline for screening whether drug spectr
 
 ## Archival work
 
-Older utilities, coursework, and exploratory applications remain available in the repository list but are intentionally excluded from the main research-engineering portfolio.
+Older utilities, coursework, and exploratory applications remain available in the repository list. They are retained as history but intentionally excluded from the main evidence tier.
