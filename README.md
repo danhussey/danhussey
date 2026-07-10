@@ -1,29 +1,23 @@
 # Daniel Hussey
 
-Engineer and medical student in Sydney working on agent evaluations, robotics policies, and high-stakes scientific machine learning.
+Machine learning and scientific software engineer, and medical student in Sydney.
 
-My current focus is empirical model behavior: verifier use, tool-using agents, closed-loop evaluation, and benchmark design. I like projects where the model has to act under constraints, not just answer static questions.
+I build reproducible ML benchmarks and research pipelines across molecular decision-making, language-model internals, robotics, and neuroimaging. I care about strong baselines, leakage control, held-out evaluation, and reporting results that survive contact with the controls.
 
-## For reviewers short on time
+## Selected research and engineering
 
-1. **[SpecGuard](https://github.com/danhussey/specguard-agent)** - agent evaluation contracts for structured rule-following, verifier use, abstention, and tool-mediated decisions.
-2. **[ACT implementation](https://github.com/danhussey/act_implementation)** - readable Action Chunking Transformer implementation with closed-loop robotics rollout results.
-3. **[Fact Checker](https://github.com/danhussey/fact-checker)** - streaming claim extraction and verification system for noisy live speech.
-4. **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - high-stakes scientific ML pipeline with patient-level splits, leakage controls, and QC artifacts.
+1. **[Constrained Compound Prioritization: Compliance vs. Utility](https://github.com/danhussey/specguard_chem_v2/blob/main/paper/CARA_LO_PAPER_50_RESULTS.md)** — Built a 50-card CARA/ChEMBL benchmark with RDKit validation, QSAR/LLM baselines, replayable runs, and paired-bootstrap comparisons. Guarded systems reached full post-repair compliance, but linear SVR remained stronger by 3.19 feasible-utility points (95% CI 1.94–4.69).
+2. **[Endpoint-Gradient Subspaces in Language Models](https://github.com/danhussey/endpoint-spaces/blob/main/docs/is-j-space-special.md)** — Fit and compared subspaces across 13 behavioral endpoint families using held-out projection energy, rank-matched controls, rank sweeps, and bootstrap intervals. GPT-2 and Qwen pilots weakened the hypothesis that J-space is uniquely low-rank.
+3. **[Voxelwise Glioma Recurrence Modeling from MRI](https://github.com/danhussey/brain-cancer-recurrence/blob/main/docs/exec-plans/completed/ucsd-clinical-controls-evaluation.md)** — Built a longitudinal MRI pipeline over 136 complete subjects, curating 37 eligible cases with patient-level splits and leakage guards. On 12 held-out cases, voxel logistic regression trailed a tumor-distance baseline (AUPRC 0.203 vs. 0.264).
+4. **[Action Chunking for Closed-Loop Robot Imitation](https://github.com/danhussey/act_implementation)** — Implemented state- and image-based ACT policies with robosuite rollouts; final checkpoints reached 18/20 Can and 17/20 vision-Lift successes, exposing validation loss as a poor policy selector in these pilots.
+5. **[Raman Spectral Triage for Neuro-Oncology Drugs](https://github.com/danhussey/raman-feasability)** — Built an auditable signal-processing pipeline for screening drug/matrix spectral separability; the first-pass analysis prioritized temozolomide for controlled spike-in testing while flagging the limits of digitized public spectra.
 
-See [PORTFOLIO.md](PORTFOLIO.md) for a reviewer-oriented project index.
+The longer [portfolio index](PORTFOLIO.md) includes evaluation frameworks and production systems.
 
-## Selected technical work
+## Production systems
 
-- **[SpecGuard](https://github.com/danhussey/specguard-agent)** - agent evaluation contracts for structured rule-following, verifier use, abstention, action semantics, cache/replay, and tool-mediated decisions. Chemistry is the first typed verifier substrate, not the portfolio claim.
-- **[SpecGuard-Chem v2](https://github.com/danhussey/specguard_chem_v2)** - constrained compound-prioritisation audit that separates compliance from hidden retrospective utility on frozen decision cards.
-- **[ACT in One File](https://github.com/danhussey/act_implementation)** - compact Action Chunking Transformer implementation for robotic manipulation, including image observations, rollout videos, and closed-loop success metrics.
-- **[Fact Checker](https://github.com/danhussey/fact-checker)** - real-time claim extraction and verification from live audio, with structured model outputs, duplicate suppression, observability, and an evaluation scaffold for adversarial transcripts.
-- **[Glioma Recurrence Risk Pipeline](https://github.com/danhussey/brain-cancer-recurrence)** - research pipeline for voxelwise recurrence-risk modelling with patient-level validation, recurrence labels mapped into baseline space, leakage controls, and human-readable QC reports.
-- **[Connectomic Demo](https://github.com/danhussey/connectomic-demo)** - archival classical ML demo for ABIDE connectome classification, cross-site generalisation, and SHAP-based feature attribution.
-- **[Transport NSW MCP](https://github.com/danhussey/transportnsw-mcp)** - Model Context Protocol interface for real-time transport data and tool-use agents.
-- **[code-pattern-brained](https://github.com/danhussey/code-pattern-brained)** - small model-behavior experiment around code-pattern associations.
-- **[Senvaro](https://senvaro.com/demo)** - private repository; public demo/case study. Production medical scribe work covering browser recording, transcription, model-generated notes, authentication, cloud deployment, observability, and testing.
+- **[Senvaro](https://senvaro.com/demo)** — Privacy-first clinical documentation with browser recording, local or Australia-hosted transcription and note generation, authentication, audit trails, observability, and end-to-end testing. The repository is private.
+- **[Fact Checker](https://github.com/danhussey/fact-checker)** — Real-time claim extraction and verification for noisy live speech, with structured outputs, duplicate suppression, diagnostics, and an offline evaluation scaffold.
 
 ## Writing
 
@@ -33,4 +27,4 @@ See [PORTFOLIO.md](PORTFOLIO.md) for a reviewer-oriented project index.
 
 ## Elsewhere
 
-[Website](https://danielrhussey.com) / [Blog](https://danhussey.bearblog.dev/blog/) / [X](https://x.com/danrhuss) / [Email](mailto:Daniel.R.Hussey@gmail.com)
+[Website](https://danielrhussey.com) / [Blog](https://danhussey.bearblog.dev/blog/) / [Email](mailto:daniel.r.hussey@gmail.com)
